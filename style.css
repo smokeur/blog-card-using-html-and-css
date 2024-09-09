@@ -1,0 +1,68 @@
+@font-face {
+    font-family: kith;
+    src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: vannesa;
+    src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+
+
+body{
+    background-color:#f5d04e;
+    font-family: vannesa;
+    margin:0;
+}
+.content{
+    width:fit-content;
+    height:fit-content;
+    background-color:#ffff;
+    padding:20px;
+    border-right: 7px solid black;
+    border-bottom:7px solid black ;
+    border-radius:20px;
+position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+
+}
+img{
+    padding:5px;
+    border-radius:20px;
+}
+#one {
+    background-color:#f5d04e;
+    width:fit-content;
+    height:fit-content;
+    padding:8px;
+    border-radius:3px;
+    font-weight:bold;
+}
+
+
+#two{
+    font-weight:bold;
+}
+.avatar{
+    display:flex;
+}
+h1{
+    font-size:20px;
+    font-weight:bolder;
+}
+.attribution{
+    margin:auto;
+    width:fit-content;
+    height:fit-content;
+    position: absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+
+   
+}
